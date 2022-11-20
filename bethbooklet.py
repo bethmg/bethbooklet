@@ -6,7 +6,7 @@ from sys import exit
 l = int(input("Start page: ")) - 1
 endpage = int(input("End page: "))
 
-numprint = endpage-l
+numprint = endpage-l	# number of pages to be printed
 sheets = 0
 
 if numprint < 3:
